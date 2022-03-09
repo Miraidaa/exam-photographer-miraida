@@ -1,0 +1,36 @@
+.footer {
+  max-height: 205px;
+  background: #19849b;
+  margin-top: 99.18px;
+  color: #ffffff; }
+  .footer .footer__content {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 37px;
+    margin-bottom: 47px; }
+    .footer .footer__content .footer__content-contacts-name {
+      font-size: 22px;
+      line-height: 25px;
+      letter-spacing: 0.01em;
+      padding-bottom: 6px;
+      padding-top: 5px; }
+    .footer .footer__content .footer__content-contacts-number {
+      font-size: 18px;
+      line-height: 21px;
+      padding-bottom: 6px;
+      letter-spacing: 0.01em; }
+  .footer .inner__footer {
+    max-height: 44px;
+    background-color: #16758a; }
+    .footer .inner__footer .inner__footer-text {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: rgba(255, 255, 255, 0.7);
+      padding-top: 17px;
+      padding-bottom: 16.19px; }
+
+/*# sourceMappingURL=style.css.map */
