@@ -1,4 +1,5 @@
 
+
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
 * {
@@ -24,5 +25,31 @@
     }
 }
 }
+.section__about {
+    display: flex;
+    gap: 68px;
+    margin-left: 227px;
+    max-width: 1038.07px;
+    margin-top: 51px;
+    color: #ffffff;
 
+    .section__about-article {
+      .section__about-article-devider {
+        padding-top: 14px;
+        padding-bottom: 12px;
+      }
 
+      .section__about-article-p {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+      }
+
+      .section__about-article-button {
+        max-width: 293px;
+        max-height: 50px;
+        border: 2px solid #ffffff;
+      }
+    }
+  }
