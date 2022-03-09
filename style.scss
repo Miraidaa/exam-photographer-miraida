@@ -1,6 +1,7 @@
 
 
 
+
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
 * {
@@ -67,3 +68,50 @@
   }
     }
 }
+
+.footer {
+    max-height: 205px;
+    background: #19849b;
+    margin-top: 99.18px;
+    color: #ffffff;
+
+    .footer__content {
+      display: flex;
+      gap: 35px;
+      justify-content: center;
+      padding-top: 37px;
+      margin-bottom: 47px;
+
+      .footer__content-contacts-name {
+        font-size: 22px;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+        padding-bottom: 6px;
+        padding-top: 5px;
+      }
+
+      .footer__content-contacts-number {
+        font-size: 18px;
+        line-height: 21px;
+        padding-bottom: 6px;
+        letter-spacing: 0.01em;
+      }
+    }
+
+    .inner__footer {
+      max-height: 44px;
+      background-color: #16758a;
+
+      .inner__footer-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: rgba(255, 255, 255, 0.7);
+        padding-top: 17px;
+        padding-bottom: 16.19px;
+      }
+    }
+  }
+
