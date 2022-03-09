@@ -1,5 +1,6 @@
 
 
+
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
 
 * {
@@ -51,5 +52,18 @@
         max-height: 50px;
         border: 2px solid #ffffff;
       }
+.section__portfolio {
+    margin-top: 104px;
+    margin-left: 227px;
+    padding: 0;
+    color: #ffffff;
+
+    .section__portfolio-photos {
+      margin-top: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20.35px;
     }
   }
+    }
+}

@@ -38,5 +38,15 @@
     max-width: 293px;
     max-height: 50px;
     border: 2px solid #ffffff; }
+  .section__about .section__about-article .section__portfolio {
+    margin-top: 104px;
+    margin-left: 227px;
+    padding: 0;
+    color: #ffffff; }
+    .section__about .section__about-article .section__portfolio .section__portfolio-photos {
+      margin-top: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20.35px; }
 
 /*# sourceMappingURL=style.css.map */
