@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css">
   </head>
   <body>
     <div class="wrapper">
@@ -63,7 +64,41 @@
             <br />
             metus auctor fringilla.
           </p>
-          <button class="section__about-article-button">CONTACT ME</button>
+        
+          
+          <button id="myBtn" class="section__about-article-button"> CONTACT ME </button>
+
+          <div id="myModal" class="modal">
+            <div class="modal__content">
+              <h3 class="modal__title">Contact me</h3>
+              <span class="close">&times;</span>
+              <p class="modal__text">
+                Curabitur blandit tempus porttitor. Vollis ac inceptos
+                mollisestor commodo <br />
+                luctus. Curabitur blandit tempus porttitor. Morbi leo risus,
+                porta ac <br />
+                consectetur ac, vestibulum at eros.
+              </p>
+              <form action="#" class="form__modal">
+                <input
+                  type="text"
+                  name="name"
+                  value="Your name"
+                  class="form__modal-name"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  value="Your email"
+                  class="form__modal-email"
+                />
+                <textarea name="pole" class="form__modal-textarea">
+ Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabitur blandit. Morbi leo risus, porta ac consectetur ac, at eros. </textarea
+                >
+                <button class="form__modal-btn">SEND MESSAGE</button>
+              </form>
+            </div>
+            </div>
         </article>
       </section>
 
@@ -142,7 +177,7 @@
         </div>
       </footer>
     </div>
-
+ <script src="modal.js"></script>
 </body>
 </html>
 
